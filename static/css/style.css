@@ -95,10 +95,11 @@ header {
 footer {
 	display:block;
 	padding: 0.5rem 0 5.5rem 0;
+  font-size: 0.84rem;
 }
 
 @media all and (max-width:520px) {
-    div.content { 
+    div.content {
     	padding: 0;
     }
 }
