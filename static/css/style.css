@@ -324,7 +324,7 @@ blockquote p {
 }
 
 ::selection {
-    background-color: #d21c1c;
+    background-color: #d21c1c80;
 		color: white;
 }
 
