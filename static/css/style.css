@@ -324,11 +324,11 @@ blockquote p {
 }
 
 ::selection {
-    background-color: #d21c1c80;
+    background-color: #1c39d280;
 		color: white;
 }
 
 ::-moz-selection {
-    background-color: #d21c1c80;
+    background-color: #1c39d280;
     color: white;
 }
