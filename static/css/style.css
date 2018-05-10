@@ -322,3 +322,13 @@ blockquote p {
 .twitter-tweet a:focus {
   text-decoration: underline;
 }
+
+::selection {
+    background-color: #d21c1c;
+		color: white;
+}
+
+::-moz-selection {
+    background-color: #d21c1c80;
+    color: white;
+}
