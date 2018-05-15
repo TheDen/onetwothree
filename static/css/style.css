@@ -185,7 +185,7 @@ img {
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: #d21c1c;
 	-moz-transition-property: background;
 	-webkit-transition-property: background;
 	transition-property: background;
@@ -217,7 +217,7 @@ a:hover {
 
 a:after {
     position: relative;
-    content: "\FEFF°";
+//    content: "\FEFF°";
     margin-left: 0.10em;
     font-size: 80%;
     top: -0.30em;
@@ -261,7 +261,7 @@ figcaption {
 }
 blockquote {
   font-style: italic;
-  font-size: 1.1em;
+ // font-size: 1.1em;
   margin: 0.7em 10px;
   padding: 1.2em 20px;
   margin-bottom: 0px;
@@ -270,19 +270,19 @@ blockquote {
 blockquote:before {
   color: #ccc;
   content: open-quote;
-  font-size: 3em;
+  font-size: 1em;
   line-height: 0.1em;
   margin-right: 0.25em;
-  vertical-align: -0.4em;
+//  vertical-align: -0.4em;
 }
 
 blockquote:after {
   color: #ccc;
   content: close-quote;
-  font-size: 3em;
+  font-size: 1em;
   line-height: 0.1em;
   margin-right: 0.25em;
-  vertical-align: -0.4em;
+//  vertical-align: -0.4em;
 }
 blockquote p {
   display: inline;

@@ -6,7 +6,7 @@
     {{ range first 100000 .Pages }}
     {{ if eq .Type "post"}}
         <p>
-          <aside>{{ .Date.Format "January 2, 2006"}} </aside>
+          <aside>{{ .Date.Format "January 2006"}} </aside>
             <!--{{ if .Params.tags }}
             /// <em>{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}<a href="/tags/{{$e}}/">{{ $e }}</a>{{ end }}
                 </em>
