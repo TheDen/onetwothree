@@ -185,7 +185,9 @@ img {
 
 a {
 	text-decoration: none;
-	color: #d21c1c;
+	//color: #d21c1c;
+  background-color: #fff4a7;
+  color: #f453ff !important;
 	-moz-transition-property: background;
 	-webkit-transition-property: background;
 	transition-property: background;
@@ -204,14 +206,14 @@ a:active {
 }
 
 a:hover {
-	background: #fbf3f3;
+	background: #55ffff;
 	-moz-transition-property: background;
 	-webkit-transition-property: background;
 	transition-property: background;
 	-moz-transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 	transition-duration: 0.2s;
-	border-radius: 10px;
+//	border-radius: 10px;
 }
 
 
@@ -239,7 +241,7 @@ code {
 
 pre {
     font-size:0.8rem;
-    background: #f5f7f9;
+    background-color: white;
     padding: 1em;
     margin-bottom:20px;
     vertical-align: text-bottom;
@@ -326,8 +328,8 @@ blockquote p {
 }
 
 ::selection {
-    background-color: #1c39d280;
-		color: white;
+  background-color: #ff55ff;
+  color: #55ffff;
 }
 
 ::-moz-selection {
